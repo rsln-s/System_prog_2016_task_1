@@ -152,9 +152,13 @@ DWORD WINAPI WriteToPipe(LPVOID lpParam)
 	for (;;)
 	{
 		//no, read from stdin
-		bSuccess = ReadFile(hParentStdIn, chBuf, BUFSIZE, &dwRead, NULL);
+		bSuccess = ReadFile(hParentStdIn, chBuf, BUFSIZE, &dwRead, NULL); //should be from socket
 		if (!bSuccess || dwRead == 0) break;
 		dwRead = strlen(chBuf);
+
+		//writeToSocket
+
+		//readFromSocket
 
 		bSuccess = WriteFile(g_hChildStd_IN_Wr, chBuf, dwRead, &dwWritten, NULL);
 		if (!bSuccess) break;

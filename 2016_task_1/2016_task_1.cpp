@@ -1,6 +1,11 @@
 // 2016_task_1.cpp : Defines the entry point for the console application.
 //
 
+// TODO: write own write to socket
+//https://msdn.microsoft.com/ru-ru/library/windows/desktop/bb540476(v=vs.85).aspx
+//TODO: take svc.cpp example. Install it: "<name> install". Then when recompiling do "net stop <name>", "net start <name>". We don't install it every time!
+//remove can be taken from another example (only the remove API!) Then do "<name> remove"
+
 #include "stdafx.h"
 
 int _tmain1(int argc, TCHAR *argv[]);
