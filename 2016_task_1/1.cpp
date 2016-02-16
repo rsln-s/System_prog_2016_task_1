@@ -1,9 +1,5 @@
 
 #include "stdafx.h"
-#include <windows.h> 
-#include <tchar.h>
-#include <stdio.h> 
-#include <strsafe.h>
 
 #define BUFSIZE 4096 
 

@@ -35,5 +35,11 @@
     <ClCompile Include="1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssrv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

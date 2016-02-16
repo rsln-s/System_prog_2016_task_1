@@ -151,6 +151,8 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
     <ClCompile Include="2016_task_1.cpp" />
+    <ClCompile Include="scli.cpp" />
+    <ClCompile Include="ssrv.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
